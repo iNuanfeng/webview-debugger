@@ -11,4 +11,23 @@
 
 ## 使用方法
 
+import方式
+
+```
+```
+
+src引入方式
+
+``` cmd
+npm run build
+```
+``` html
+<script src="./dist/bundle.js"></script>
+```
+
+动态插入方式
+
+```
+```
+
 ## 其他说明
