@@ -1,10 +1,11 @@
 {
   "name": "webview-debugger",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "An hidden debugger for webview.",
   "main": "index.js",
   "scripts": {
-    "dev": "http-server",
+    "example": "http-server",
+    "dev": "npx rollup -c --watch",
     "build": "npx rollup -c"
   },
   "repository": {
@@ -36,5 +37,8 @@
     "rollup-plugin-commonjs": "^10.0.1",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-uglify": "^6.0.2"
+  },
+  "dependencies": {
+    "vconsole": "^3.3.2"
   }
 }
