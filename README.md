@@ -31,16 +31,11 @@ npm run build
 ```
 
 ## 本地开发
-### 监听文件
+### 监听文件 & 启动预览
 ``` cmd
 yarn dev
 ```
 
-### 启动服务
-``` cmd
-yarn example
-```
-
 ### 本地预览
-访问 http://127.0.0.1:8080
+访问 http://localhost:3000/examples/index.html
 屏幕最左侧连续点击 5 次，唤起调试台
