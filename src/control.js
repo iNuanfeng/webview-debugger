@@ -5,7 +5,7 @@ export default function (showDebugger) {
   let count = 0;
   document.addEventListener('click', (event) => {
     const e = event || window.event;
-    
+
     if (e.clientX > 100) {
       return;
     }
