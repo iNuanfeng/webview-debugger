@@ -16,8 +16,14 @@ const container = {
   },
 
   showToolbar() {
+    if (!document.querySelector('#webview-debugger')) {
+      const div = document.createElement('div')
+      div.id = 'webview-debugger'
+      document.body.appendChild(div)
+    }
+
     new Vue({
-      el: '#app',
+      el: '#webview-debugger',
       render: h => h(App)
     })
   },
