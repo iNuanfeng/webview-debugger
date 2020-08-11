@@ -15,12 +15,12 @@ const getStyle = isDev => {
         {
           loader: 'css-loader'
         },
-        {
-          loader: 'px2rem-loader',
-          options: {
-            remUnit: (200 / 640) * 750
-          }
-        },
+        // {
+        //   loader: 'px2rem-loader',
+        //   options: {
+        //     remUnit: (200 / 640) * 750
+        //   }
+        // },
         {
           loader: 'less-loader'
         }
@@ -36,12 +36,12 @@ const getStyle = isDev => {
         {
           loader: 'css-loader'
         },
-        {
-          loader: 'px2rem-loader',
-          options: {
-            remUnit: (100 / 640) * 750
-          }
-        },
+        // {
+        //   loader: 'px2rem-loader',
+        //   options: {
+        //     remUnit: (100 / 640) * 750
+        //   }
+        // },
         {
           loader: 'less-loader',
           options: {
@@ -61,12 +61,12 @@ const getStyle = isDev => {
         {
           loader: 'css-loader'
         },
-        {
-          loader: 'px2rem-loader',
-          options: {
-            remUnit: (200 / 640) * 750
-          }
-        },
+        // {
+        //   loader: 'px2rem-loader',
+        //   options: {
+        //     remUnit: (200 / 640) * 750
+        //   }
+        // },
         {
           loader: 'less-loader',
           options: {

@@ -105,6 +105,6 @@ export default {
   position: fixed;
   left: 20px;
   bottom: 0;
-  height: 60px;
+  height: 30px;
 }
 </style>
