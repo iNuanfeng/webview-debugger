@@ -106,5 +106,6 @@ export default {
   left: 20px;
   bottom: 0;
   height: 30px;
+  z-index: 999;
 }
 </style>

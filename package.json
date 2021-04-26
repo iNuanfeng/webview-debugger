@@ -1,6 +1,6 @@
 {
   "name": "webview-debugger",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "An hidden debugger for webview.",
   "main": "index.js",
   "scripts": {
@@ -45,6 +45,8 @@
   },
   "dependencies": {
     "js-cookie": "^2.2.1",
+    "mysql2": "^2.1.0",
+    "qs": "^6.10.1",
     "vant": "^2.10.0",
     "vconsole": "^3.3.2",
     "vue": "^2.6.11"
