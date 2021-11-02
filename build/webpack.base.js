@@ -7,7 +7,10 @@ module.exports = {
     debugger: path.resolve(__dirname, '../src/index.js'),
   },
   resolve: {
-    extensions: ['.js', '.vue']
+    extensions: ['.js', '.vue'],
+    alias: {
+      '@lib': path.resolve(__dirname, '../src/lib')
+    }
   },
   module: {
     rules: [

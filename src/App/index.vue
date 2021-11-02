@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import { Button } from 'vant'
-import { ActionSheet } from 'vant'
+import { Button } from '@lib/vant'
+import { ActionSheet } from '@lib/vant'
 import PopupJump from './popupJump'
 import PopupSence from './popupSence'
 import Cookies from 'js-cookie'

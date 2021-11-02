@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { Popup, Field, Button } from 'vant'
+import { Popup, Field, Button } from '@lib/vant'
 
 export default {
   components: {
